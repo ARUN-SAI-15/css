@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#parent{
+    border: 2px solid red;
+    min-height: 100px;
+}
+#div-1{
+    background-color: rgb(25, 0, 255);
+    width: 100px;
+    height: 100px;
+    float: left; 
+}
+#div-2{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#div-3{
+    background-color: rgb(255, 0, 162);
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+#div-4{
+    background-color: rgb(255, 140, 0);
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.clear ::after{
+content: 'helo';
+display: block;
+clear: both;
+}

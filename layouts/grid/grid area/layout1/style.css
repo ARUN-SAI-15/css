@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#parent{
+    margin: 10px auto;
+    width: 500px;
+    height: 600px;
+    grid-template-columns: 200px 250px;
+    grid-template-rows: 100px 100px 150px  100px;
+    grid-template-areas: 
+    "logo logo"
+    "nav nav"
+    "side area"
+    "foot foot";
+    display: grid;
+}
+#logo{
+    grid-area: logo;
+    padding-left: 5px;
+    background-color: blue;
+    display: grid;
+    align-items: center;
+}
+#nav{
+    grid-area: nav;
+
+    background-color: rgb(0, 255, 140);
+     
+}
+#side{
+    grid-area: side;
+
+    background-color: rgb(0, 30, 255);
+}
+#area{
+    grid-area: area;
+
+    background-color: rgb(140, 255, 0);
+}
+#foot{
+    grid-area: foot;
+
+    background-color: rgb(0, 255, 140);
+}

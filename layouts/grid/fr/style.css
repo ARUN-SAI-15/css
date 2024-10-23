@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+
+}
+#parent{
+
+    height: 400px;
+    display: grid;
+    grid-template-columns: minmax(100px,300px) 1fr minmax(100px,300px)1fr  minmax(100px,300px) 1fr;
+    grid-template-rows: 1fr;
+    margin: 10px auto;
+}
+#d1{
+    background-color: rgb(38, 255, 30);
+}
+#d2{
+    background-color: rgb(255, 30, 255);
+}
+#d3{
+    background-color: dodgerblue;
+}

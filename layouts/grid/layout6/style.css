@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    color: white;
+}
+#parent{
+    margin: auto;
+    width: 570px;
+   min-height: 600px;
+    grid-template-columns: 140px 140px 140px 140px;
+    grid-template-rows: 80px 90px 90px 90px 90px 100px 50px ; 
+    /* background-color: coral;  */
+    display: grid;
+    row-gap: 5px;
+}
+#nav{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: darkmagenta;
+    display: grid;
+    align-items:center ;
+    padding-left: 4px;
+}
+#logo{
+    grid-column: 2/5;
+    grid-row: 1/2;
+    background-color: rgb(0, 0, 139);
+    display: grid;
+    align-items:center ;
+padding-left: 150px;
+}
+#as{
+grid-column: 1/2;
+grid-row: 2/3;
+background-color: blueviolet;
+margin-right: 5px;
+}
+#uas{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#a{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#b{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#c{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#d{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#e{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#f{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#g{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#h{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#i{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#j{
+    grid-column: 4/5;
+    grid-row: 4/5;
+    background-color: blueviolet;
+
+}
+#k{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#l{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#m{
+    grid-column: 3/4;
+    grid-row: 5/6;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#n{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background-color: blueviolet;
+/* justify-content: center; */
+}
+#box{
+    display: grid;
+    grid-template-columns: 200px 200px 150px;
+    grid-template-rows: 100px;
+    column-gap: 5px;
+    
+}
+#b1{ 
+    background-color: aquamarine;
+    
+}
+#b2{
+    background-color: rgb(255, 127, 227); 
+}
+#b3{
+    background-color: rgb(127, 148, 255);
+}
+#foot{
+    background-color: brown;
+    grid-column: 1/5;
+    grid-row:7/8;
+}

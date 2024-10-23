@@ -1,0 +1,51 @@
+/* element slecter 
+p{
+    color: yellow;
+} */
+/* id selecter  */
+/*  #myid{
+    color: blue;
+}      */
+/* class selecter  
+.myclass{
+    color: red;
+}*/
+/*#parent p{
+    color:blueviolet;
+}*/
+/* #parent>p{
+    color: aqua;
+}*/
+/*#parent+p{
+    color: brown;
+
+}*/
+/*#parent~p{
+    color: red;}*/
+ /*universal selecter *//*{color:red  } */ 
+ /*group selecter
+ #parent,h3,p{
+    color: darkorchid;
+ }*/
+/* psuedo class selecter
+ #child:hover{
+    color: pink;
+ }
+/* psuedo element selecter
+#myid::before{
+    content: 'hi ';
+    color: yellow;
+    font-size: 50px;
+ }
+ #myid::after{
+    content: 'bye ';
+    color: yellow;
+    font-size: 50px;
+ }*//*attribute contains
+ [title*="hello"]{color:red;}*/
+ /*attribute starts with
+ [title^="hi"]{color: blue;}*/
+ /* attribute ends with
+ [title$="bye"]{color: green;}*/
+ /*attribute value
+ [title="hihellobye"]{color: yellow;}*/

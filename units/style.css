@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    text-transform: capitalize;
+}
+#parent{
+    font-size: 30px;
+    width: 2em;
+    background-color: rgb(127, 255, 129);
+}
+/* vw view width based on screen it will change 
+pixcel 1 pixcel is o.2cm pixcel is an absolute value
+   */
+#a{
+
+    width: 60px;
+    background-color: rgb(255, 127, 255);
+}

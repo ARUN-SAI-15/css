@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    
+}
+#parent{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px;
+  min-height: 80px;
+  background-color: black;
+}
+.logo{
+   display:grid;
+   justify-content: center;
+   align-items: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+   
+}

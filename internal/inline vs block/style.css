@@ -1,0 +1,52 @@
+div{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    padding: 20px;
+    margin: 50px;
+}
+span{
+    border: 2px solid yellow;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    padding: 20px;
+    margin: 30px;
+}
+#as{
+    border: 2px solid violet;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.sd{
+    border:2px solid orange;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#div{
+    height: 250px;
+    width:200px;
+    border: 2px solid green;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}          
+#div1{
+    height: 250px;
+    width:200px;
+    border: 2px solid blue;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
